@@ -109,7 +109,7 @@ Les zones plus intenses indiquent une concentration plus élevée de clients.
 Ce graphique trace une ligne reliant chaque usine à ses clients.  
 Cela permet de visualiser la distance entre les usines et leurs clients, offrant une vue claire pour l'analyse.  
 
-<img style="width:80%;height:80%;" src="images/route.png" alt="Carte de densité des clients" />
+<img style="width:80%;height:80%;" src="images/routes.png" alt="Carte de densité des clients" />
 
 Par exemple, ce graphique peut recommander la suppression de l’usine **"Sugar Shrack"**, qui n’a eu que **11 clients en 4 ans**, tout en étant située à de grandes distances de ses clients.  
 <img style="width:80%;height:80%;" src="images/sugar-route.png" alt="Carte de densité des clients" />
