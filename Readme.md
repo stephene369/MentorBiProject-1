@@ -413,8 +413,6 @@ L’objectif est de minimiser les pertes associées à ces produits tout en expl
 
 
 
-
-
 ## Contribution:
 
 <div style= "display:flex; gap:2rem; "  >
