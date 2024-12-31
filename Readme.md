@@ -507,8 +507,9 @@ Ces chiffres témoignent d'un faible attrait pour ces produits, suggérant qu'il
 
 
 **Courbe de saisonnalité**
+Avec les deux courbes de saisonnalité ci-dessous nous remarquons une claire presen
 <img src="images/saison-coube.png" alt="courbe de saisonnalite" />
-<img src="images/courbe-saison-2.png.png" alt="courbe de saisonnalite" />
+<img src="images/courbe-saison-2.png" alt="courbe de saisonnalite" />
 
 
 
