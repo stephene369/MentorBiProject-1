@@ -392,7 +392,7 @@ Ces chiffres témoignent d'un faible attrait pour ces produits, suggérant qu'il
 
 ## Etude de la saisonnalité: 
 
-**Nombre de commande pour chaque produit par mois**
+**Tableau du nombre total de commandes par mois**
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -504,6 +504,14 @@ Ces chiffres témoignent d'un faible attrait pour ces produits, suggérant qu'il
   </tbody>
 </table>
 </div>
+
+
+**Courbe de saisonnalité**
+<img src="images/saison-coube.png" alt="courbe de saisonnalite" />
+<img src="images/courbe-saison-2.png.png" alt="courbe de saisonnalite" />
+
+
+
 
 
 ### Analyse de regles d'association pour sugerer et accroitre les ventes 
