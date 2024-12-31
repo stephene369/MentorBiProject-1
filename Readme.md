@@ -97,7 +97,7 @@ Cette visualisation permet d’identifier facilement l'emplacement des clients.
 ---
 
 #### **heatmap.html**
-Ce graphique montre la densité des clients sur la carte.  
+Cette carte montre la densité des clients sur la carte.  
 Les zones plus intenses indiquent une concentration plus élevée de clients.  
 
 <img src="images/heatmap.png" alt="Carte de densité des clients" />
@@ -106,7 +106,7 @@ Les zones plus intenses indiquent une concentration plus élevée de clients.
 
 
 ### **route.html**  
-Ce graphique trace une ligne reliant chaque usine à ses clients.  
+Cette carte trace une ligne reliant chaque usine à ses clients.  
 Cela permet de visualiser la distance entre les usines et leurs clients, offrant une vue claire pour l'analyse.  
 
 <img style="width:80%;height:80%;" src="images/routes.png" alt="Carte de densité des clients" />
@@ -118,7 +118,7 @@ Par exemple, ce graphique peut recommander la suppression de l’usine **"Sugar 
 ---
 
 
-Ce graphique est un **boxplot** qui compare la distribution des ventes (`Sales`) pour différentes catégories de produits représentées par les divisions (`Division`) : **Chocolate**, **Other**, et **Sugar**.
+Cette carte est un **boxplot** qui compare la distribution des ventes (`Sales`) pour différentes catégories de produits représentées par les divisions (`Division`) : **Chocolate**, **Other**, et **Sugar**.
 <img src="images/box1.png" alt="Boxplot" />
 
 ### Ce que montre ce graphique :
