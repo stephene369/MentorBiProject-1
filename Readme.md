@@ -649,7 +649,7 @@ Voici les règles simples et directes basées sur les associations :
 </a>
 
 
-<a href="https://github.com/stephene369/">
+<a href="https://github.com/stephene369/" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
   <img style='height:80px; border-radius:50px;' src="https://avatars.githubusercontent.com/u/81186886?v=4" alt="contrib.rocks image" />
   <p>Stephene WANTCHEKON<p/>
 </a>
