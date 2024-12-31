@@ -535,8 +535,63 @@ En combinant une analyse approfondie des données et une stratégie marketing pr
 
 
 
-### Analyse de regles d'association pour sugerer et accroitre les ventes
+### Analyse des règles d'association pour suggérer des produits et accroître les ventes.
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>antecedents</th>
+      <th>consequents</th>
+      <th>antecedent support</th>
+      <th>consequent support</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>(Wonka Bar - Fudge Mallows, Wonka Bar - Milk C...</td>
+      <td>(Wonka Bar - Triple Dazzle Caramel)</td>
+      <td>0.091594</td>
+      <td>0.328311</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>(Wonka Bar - Fudge Mallows, Wonka Bar - Triple...</td>
+      <td>(Wonka Bar - Milk Chocolate)</td>
+      <td>0.080690</td>
+      <td>0.345956</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>(Wonka Bar - Milk Chocolate, Wonka Bar - Tripl...</td>
+      <td>(Wonka Bar - Fudge Mallows)</td>
+      <td>0.093577</td>
+      <td>0.297383</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>(Wonka Bar - Fudge Mallows)</td>
+      <td>(Wonka Bar - Milk Chocolate, Wonka Bar - Tripl...</td>
+      <td>0.297383</td>
+      <td>0.093577</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 Les valeurs décrivent des associations entre des produits vendus par **US Candy**, en mesurant la force des relations entre eux. Chaque ligne représente une règle d'association, avec des produits dans les colonnes **antecedents** (prémisses) et **consequents** (conséquences). Voici une analyse des principales métriques :  
 
@@ -551,6 +606,17 @@ Les valeurs décrivent des associations entre des produits vendus par **US Candy
 5. **Jaccard et Certainty** : Indiquent la similarité et la certitude de l'association entre les produits. Ici, les valeurs restent moyennes, suggérant des corrélations intéressantes, mais pas extrêmement fortes.  
 
 ### Recommandations pour augmenter les ventes :  
+
+<p style="color:blue; " >
+Voici les règles simples et directes basées sur les associations :
+
+<p/>
+
+1. **Si une personne achète "Wonka Bar - Fudge Mallows" et "Milk Chocolate"**, suggérer **"Wonka Bar - Triple Dazzle Caramel"**.  
+2. **Si une personne achète "Wonka Bar - Fudge Mallows" et "Triple Dazzle Caramel"**, suggérer **"Wonka Bar - Milk Chocolate"**.  
+3. **Si une personne achète "Wonka Bar - Milk Chocolate" et "Triple Dazzle Caramel"**, suggérer **"Wonka Bar - Fudge Mallows"**.  
+4. **Si une personne achète seulement "Wonka Bar - Fudge Mallows"**, suggérer **"Milk Chocolate" et "Triple Dazzle Caramel"**. 
+ 
 
 
 
