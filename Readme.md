@@ -159,17 +159,7 @@ Ces avantages bénéficient autant à **US Candy** qu'à ses clients, renforçan
 **Nombre total de commande par produit**
 <div>
 <style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -262,18 +252,8 @@ Ces avantages bénéficient autant à **US Candy** qu'à ses clients, renforçan
 ---
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
 
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -394,18 +374,7 @@ Ces chiffres témoignent d'un faible attrait pour ces produits, suggérant qu'il
 
 **Tableau du nombre total de commandes par mois**
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -537,18 +506,8 @@ En combinant une analyse approfondie des données et une stratégie marketing pr
 
 ### Analyse des règles d'association pour suggérer des produits et accroître les ventes.
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
 
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
