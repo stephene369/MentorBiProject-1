@@ -620,10 +620,19 @@ Voici les règles simples et directes basées sur les associations :
 
 
 
-## Reommandations : 
----
-**Études de marché** : Identifier les raisons derrière le faible intérêt pour ces produits. Cela peut inclure des enquêtes consommateurs pour comprendre leurs attentes et besoins, 
+## Recommandations :
 
+### Études de marché
+- Identifier les raisons derrière le faible intérêt pour ces produits. Cela pourrait inclure des enquêtes consommateurs pour mieux comprendre leurs attentes et besoins.
+
+### Usines et Production
+- **Lot's O' Nuts** et **Wicked Choccy's** : Nous recommandons de produire tous les produits chocolatés à la fois chez ces deux fabricants.
+  
+- **Sugar Shrack** : Sur trois années consécutives, "Sugar Shrack" a enregistré un total de 33 commandes. Nous suggérons la fermeture de l'usine "Sugar Shrack" ou sa reconversion en une usine de production de chocolat, en mettant l'accent sur les produits chocolatés les plus consommés dans le nord des États-Unis.
+
+- **Other Factory** : Il est recommandé de fermer "Other Factory" ou de la reconvertir en un point de dépôt pour les produits d'origine chocolatée.
+
+- **Secret Factory** : Nous proposons de recentrer la production exclusivement sur les produits de la division "Other" tels que 'Wonka Gum', 'Kazookles', 'Lickable Wallpaper', et 'Fizzy Lifting Drinks'.
 
 
 
@@ -634,15 +643,17 @@ Voici les règles simples et directes basées sur les associations :
 
 <div style= "display:flex; gap:2rem; "  >
 
-<a href="https://github.com/MARA1976/Git-Hikayat_data">
-  <img style='height:80px; border-radius:50px;' src="https://avatars.githubusercontent.com/u/131023019?v=4" alt="contrib.rocks image" />
-  
+<a href="https://github.com/MARA1976/Git-Hikayat_data" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+  <img style="height: 80px; border-radius: 50px;" src="https://avatars.githubusercontent.com/u/131023019?v=4" alt="contrib.rocks image" />
+  <p>Stephene WANTCHEKON</p>
 </a>
 
 
 <a href="https://github.com/stephene369/">
   <img style='height:80px; border-radius:50px;' src="https://avatars.githubusercontent.com/u/81186886?v=4" alt="contrib.rocks image" />
+  <p>Stephene WANTCHEKON<p/>
 </a>
+  
 
 <div/>
 
