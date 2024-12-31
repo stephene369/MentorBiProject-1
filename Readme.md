@@ -390,22 +390,128 @@ Ces chiffres témoignent d'un faible attrait pour ces produits, suggérant qu'il
 
 
 
-## Prochaines étapes
+## Etude de la saisonnalité: 
 
-Afin d'améliorer les performances des produits les moins rentables, une série d'analyses et de mesures seront envisagées :
-1. **Études de marché** : Identifier les raisons derrière le faible intérêt pour ces produits. Cela peut inclure des enquêtes consommateurs pour comprendre leurs attentes et besoins.
-2. **Stratégies de relance** : Tester de nouvelles stratégies marketing, repositionner ces produits ou explorer des opportunités de partenariats pour augmenter leur visibilité.
-3. **Évaluation de la production** :
-   - Analyser la viabilité des lignes de production dédiées à ces produits. 
-   - Envisager une réaffectation des ressources à des produits plus prometteurs ou la création de nouvelles gammes en phase avec les tendances actuelles du marché.
-4. **Décisions stratégiques** : Déterminer s’il serait plus avantageux de supprimer certains produits ou de transformer les usines concernées pour optimiser les opérations.
+**Nombre de commande pour chaque produit par mois**
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
-L’objectif est de minimiser les pertes associées à ces produits tout en explorant des opportunités pour relancer leur attractivité ou réorienter les efforts de production.
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
 
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>month_name</th>
+      <th>January</th>
+      <th>February</th>
+      <th>March</th>
+      <th>April</th>
+      <th>May</th>
+      <th>June</th>
+      <th>July</th>
+      <th>August</th>
+      <th>September</th>
+      <th>October</th>
+      <th>November</th>
+      <th>December</th>
+    </tr>
+    <tr>
+      <th>orderyear</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2021</th>
+      <td>61</td>
+      <td>40</td>
+      <td>132</td>
+      <td>113</td>
+      <td>118</td>
+      <td>118</td>
+      <td>113</td>
+      <td>131</td>
+      <td>234</td>
+      <td>138</td>
+      <td>267</td>
+      <td>253</td>
+    </tr>
+    <tr>
+      <th>2022</th>
+      <td>54</td>
+      <td>57</td>
+      <td>123</td>
+      <td>126</td>
+      <td>127</td>
+      <td>109</td>
+      <td>110</td>
+      <td>129</td>
+      <td>245</td>
+      <td>137</td>
+      <td>269</td>
+      <td>278</td>
+    </tr>
+    <tr>
+      <th>2023</th>
+      <td>83</td>
+      <td>71</td>
+      <td>153</td>
+      <td>146</td>
+      <td>184</td>
+      <td>171</td>
+      <td>168</td>
+      <td>149</td>
+      <td>317</td>
+      <td>169</td>
+      <td>307</td>
+      <td>305</td>
+    </tr>
+    <tr>
+      <th>2024</th>
+      <td>126</td>
+      <td>95</td>
+      <td>203</td>
+      <td>182</td>
+      <td>215</td>
+      <td>211</td>
+      <td>197</td>
+      <td>183</td>
+      <td>381</td>
+      <td>266</td>
+      <td>394</td>
+      <td>391</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 
 ### Analyse de regles d'association pour sugerer et accroitre les ventes 
 
+
+## Reommandations : 
+---
+**Études de marché** : Identifier les raisons derrière le faible intérêt pour ces produits. Cela peut inclure des enquêtes consommateurs pour comprendre leurs attentes et besoins.
 
 
 
