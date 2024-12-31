@@ -507,7 +507,27 @@ Ces chiffres témoignent d'un faible attrait pour ces produits, suggérant qu'il
 
 
 **Courbe de saisonnalité**
-Avec les deux courbes de saisonnalité ci-dessous nous remarquons une claire presen
+---
+Avec les deux courbes de saisonnalité ci-dessous, nous observons une répétition presque parfaite des schémas au fil des années, ce qui indique une forte composante saisonnière dans les données.
+
+En résumé, nous remarquons que **US Candy** réalise ses plus grosses ventes à partir du troisième mois de l'année (mars). Le deuxième plus grand pic de ventes est observé en septembre, ce qui pourrait correspondre au début des vacances. Enfin, des hausses significatives sont également enregistrées en octobre, novembre et décembre, avant une chute marquée dès le mois de janvier de l'année suivante.
+
+Cependant, une forte baisse en octobre, visible sous la forme d’un creux entre les pics de septembre et novembre au cours des quatre années étudiées, suscite des interrogations. Voici quelques pistes de réflexion :  
+- **Pourquoi observe-t-on un pic important des ventes en mars ?** Est-ce lié à un événement spécifique, une fête ou une campagne publicitaire ?  
+- **Quelles sont les raisons du pic de septembre ?** S'agit-il de promotions ciblées, de changements dans la demande des consommateurs, ou d'une préparation aux fêtes de fin d'année ?  
+- **Pourquoi observe-t-on une chute marquée en octobre ?** Cette baisse est-elle liée à une concurrence accrue, à une saturation du marché ou à un manque de campagnes marketing ?  
+- **Quels facteurs expliquent les ventes importantes en fin d'année (novembre-décembre) ?** Cela pourrait-il être renforcé par des promotions ou des offres spéciales ?  
+
+### Recommandations Marketing
+1. **Analyser les données clients :** Mener des enquêtes pour identifier les raisons derrière les pics (mars, septembre, décembre) et les chutes (octobre, janvier). Comprendre les attentes des consommateurs lors de ces périodes.  
+2. **Renforcer la stratégie marketing en octobre :** Mettre en place des campagnes promotionnelles pour combler le creux entre septembre et novembre, par exemple en lançant des produits ou des offres spéciales pour Halloween.  
+3. **Optimiser les ventes en mars et en septembre :** Identifier les produits les plus populaires lors de ces périodes et renforcer leur visibilité grâce à des promotions ciblées ou à une communication plus agressive.  
+4. **Prolonger l’effet des ventes de fin d’année :** Maintenir l'intérêt des consommateurs en janvier avec des soldes, des campagnes de fidélisation ou des offres sur les produits invendus.  
+5. **Exploration de nouveaux marchés :** Si certaines périodes restent faibles malgré les efforts, envisager de diversifier les produits ou de cibler de nouveaux segments de clientèle.  
+
+En combinant une analyse approfondie des données et une stratégie marketing proactive, **US Candy** pourrait maximiser ses opportunités tout au long de l'année et limiter les fluctuations saisonnières.  
+
+
 <img src="images/saison-coube.png" alt="courbe de saisonnalite" />
 <img src="images/courbe-saison-2.png" alt="courbe de saisonnalite" />
 
@@ -515,7 +535,23 @@ Avec les deux courbes de saisonnalité ci-dessous nous remarquons une claire pre
 
 
 
-### Analyse de regles d'association pour sugerer et accroitre les ventes 
+### Analyse de regles d'association pour sugerer et accroitre les ventes
+
+
+Les valeurs décrivent des associations entre des produits vendus par **US Candy**, en mesurant la force des relations entre eux. Chaque ligne représente une règle d'association, avec des produits dans les colonnes **antecedents** (prémisses) et **consequents** (conséquences). Voici une analyse des principales métriques :  
+
+1. **Confiance (confidence)** : La probabilité qu’un client achète les produits "conséquents" s’il a déjà acheté les "antécédents". Par exemple, dans la première règle, si un client achète les produits "Wonka Bar - Fudge Mallows" et "Milk Chocolate", il y a une probabilité de 35,06 % qu'il achète également "Triple Dazzle Caramel". Une forte confiance indique une forte association.  
+
+2. **Lift** : Indique à quel point l'achat des "antécédents" augmente la probabilité d'achat des "conséquents". Une valeur supérieure à 1, comme dans les règles analysées (1.068 à 1.154), montre que les associations sont bénéfiques et que les produits se complètent bien.  
+
+3. **Support** : Reflète la fréquence de la co-occurrence des produits dans l'ensemble des transactions. Les faibles supports (par exemple, 0.032 dans toutes les règles) suggèrent que ces associations concernent une niche de clients.  
+
+4. **Conviction** et **Zhang’s Metric** : Mesurent la robustesse et la fiabilité des règles. Des valeurs élevées (exemple : conviction à 1.034-1.086) confirment des associations modérément solides.  
+
+5. **Jaccard et Certainty** : Indiquent la similarité et la certitude de l'association entre les produits. Ici, les valeurs restent moyennes, suggérant des corrélations intéressantes, mais pas extrêmement fortes.  
+
+### Recommandations pour augmenter les ventes :  
+
 
 
 ## Reommandations : 
