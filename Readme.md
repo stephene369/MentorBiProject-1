@@ -622,7 +622,7 @@ Voici les règles simples et directes basées sur les associations :
 
 ## Reommandations : 
 ---
-**Études de marché** : Identifier les raisons derrière le faible intérêt pour ces produits. Cela peut inclure des enquêtes consommateurs pour comprendre leurs attentes et besoins.
+**Études de marché** : Identifier les raisons derrière le faible intérêt pour ces produits. Cela peut inclure des enquêtes consommateurs pour comprendre leurs attentes et besoins, 
 
 
 
