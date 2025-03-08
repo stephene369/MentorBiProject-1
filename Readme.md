@@ -579,49 +579,48 @@ By combining in-depth data analysis with a proactive marketing strategy, **US Ca
 </table>
 </div>
 
-Les valeurs décrivent des associations entre des produits vendus par **US Candy**, en mesurant la force des relations entre eux. Chaque ligne représente une règle d'association, avec des produits dans les colonnes **antecedents** (prémisses) et **consequents** (conséquences). Voici une analyse des principales métriques :  
-
-1. **Confiance (confidence)** : La probabilité qu’un client achète les produits "conséquents" s’il a déjà acheté les "antécédents". Par exemple, dans la première règle, si un client achète les produits "Wonka Bar - Fudge Mallows" et "Milk Chocolate", il y a une probabilité de 35,06 % qu'il achète également "Triple Dazzle Caramel". Une forte confiance indique une forte association.  
-
-2. **Lift** : Indique à quel point l'achat des "antécédents" augmente la probabilité d'achat des "conséquents". Une valeur supérieure à 1, comme dans les règles analysées (1.068 à 1.154), montre que les associations sont bénéfiques et que les produits se complètent bien.  
-
-3. **Support** : Reflète la fréquence de la co-occurrence des produits dans l'ensemble des transactions. Les faibles supports (par exemple, 0.032 dans toutes les règles) suggèrent que ces associations concernent une niche de clients.  
-
-4. **Conviction** et **Zhang’s Metric** : Mesurent la robustesse et la fiabilité des règles. Des valeurs élevées (exemple : conviction à 1.034-1.086) confirment des associations modérément solides.  
-
-5. **Jaccard et Certainty** : Indiquent la similarité et la certitude de l'association entre les produits. Ici, les valeurs restent moyennes, suggérant des corrélations intéressantes, mais pas extrêmement fortes.  
-
-### Recommandations pour augmenter les ventes :  
-
-<p style="color:blue; " >
-Voici les règles simples et directes basées sur les associations :
-
-<p/>
-
-1. **Si une personne achète "Wonka Bar - Fudge Mallows" et "Milk Chocolate"**, suggérer **"Wonka Bar - Triple Dazzle Caramel"**.  
-2. **Si une personne achète "Wonka Bar - Fudge Mallows" et "Triple Dazzle Caramel"**, suggérer **"Wonka Bar - Milk Chocolate"**.  
-3. **Si une personne achète "Wonka Bar - Milk Chocolate" et "Triple Dazzle Caramel"**, suggérer **"Wonka Bar - Fudge Mallows"**.  
-4. **Si une personne achète seulement "Wonka Bar - Fudge Mallows"**, suggérer **"Milk Chocolate" et "Triple Dazzle Caramel"**. 
- 
 
 
+### English Translation  
 
-## Recommandations :
+The values describe associations between products sold by **US Candy**, measuring the strength of relationships between them. Each row represents an association rule, with products in the **antecedents** (premises) and **consequents** (consequences) columns. Here is an analysis of the key metrics:  
 
-### Études de marché
-- Identifier les raisons derrière le faible intérêt pour ces produits. Cela pourrait inclure des enquêtes consommateurs pour mieux comprendre leurs attentes et besoins.
+1. **Confidence**: The probability that a customer will purchase the "consequent" products if they have already bought the "antecedent" ones. For example, in the first rule, if a customer buys "Wonka Bar - Fudge Mallows" and "Milk Chocolate," there is a 35.06% probability that they will also buy "Triple Dazzle Caramel." A high confidence value indicates a strong association.  
 
-### Usines et Production
-- **Lot's O' Nuts** et **Wicked Choccy's** : Nous recommandons de produire tous les produits chocolatés à la fois chez ces deux fabricants.
-  
-- **Sugar Shrack** : Sur trois années consécutives, "Sugar Shrack" a enregistré un total de 33 commandes. Nous suggérons la fermeture de l'usine "Sugar Shrack" ou sa reconversion en une usine de production de chocolat, en mettant l'accent sur les produits chocolatés les plus consommés dans le nord des États-Unis.
+2. **Lift**: Shows how much the purchase of "antecedents" increases the likelihood of purchasing "consequents." A value greater than 1, as seen in the analyzed rules (1.068 to 1.154), indicates that these associations are beneficial and that the products complement each other well.  
 
-- **Other Factory** : Il est recommandé de fermer "Other Factory" ou de la reconvertir en un point de dépôt pour les produits d'origine chocolatée.
+3. **Support**: Reflects the frequency of product co-occurrence across all transactions. Low support values (e.g., 0.032 in all rules) suggest that these associations apply to a niche group of customers.  
 
-- **Secret Factory** : Nous proposons de recentrer la production exclusivement sur les produits de la division "Other" tels que 'Wonka Gum', 'Kazookles', 'Lickable Wallpaper', et 'Fizzy Lifting Drinks'.
+4. **Conviction** and **Zhang’s Metric**: Measure the robustness and reliability of the rules. High values (e.g., conviction at 1.034-1.086) confirm moderately strong associations.  
 
+5. **Jaccard and Certainty**: Indicate the similarity and certainty of the association between products. Here, the values remain moderate, suggesting interesting but not extremely strong correlations.  
 
+### Recommendations to Increase Sales  
 
+<p style="color:blue;">
+Here are simple and direct rules based on the associations:
+</p>
+
+1. **If a customer buys "Wonka Bar - Fudge Mallows" and "Milk Chocolate,"** suggest **"Wonka Bar - Triple Dazzle Caramel."**  
+2. **If a customer buys "Wonka Bar - Fudge Mallows" and "Triple Dazzle Caramel,"** suggest **"Wonka Bar - Milk Chocolate."**  
+3. **If a customer buys "Wonka Bar - Milk Chocolate" and "Triple Dazzle Caramel,"** suggest **"Wonka Bar - Fudge Mallows."**  
+4. **If a customer buys only "Wonka Bar - Fudge Mallows,"** suggest **"Milk Chocolate" and "Triple Dazzle Caramel."**  
+
+---
+
+## Recommendations  
+
+### Market Studies  
+- Identify the reasons behind the low interest in these products. This could involve conducting consumer surveys to better understand their expectations and needs.  
+
+### Factories and Production  
+- **Lot's O' Nuts** and **Wicked Choccy's**: We recommend producing all chocolate products at both of these manufacturers.  
+
+- **Sugar Shrack**: Over three consecutive years, "Sugar Shrack" recorded a total of 33 orders. We suggest closing the "Sugar Shrack" factory or converting it into a chocolate production facility, focusing on the most consumed chocolate products in the northern United States.  
+
+- **Other Factory**: It is recommended to either close "Other Factory" or convert it into a storage facility for chocolate-based products.  
+
+- **Secret Factory**: We propose refocusing production exclusively on the "Other" division products, such as 'Wonka Gum,' 'Kazookles,' 'Lickable Wallpaper,' and 'Fizzy Lifting Drinks.'
 
 
 
